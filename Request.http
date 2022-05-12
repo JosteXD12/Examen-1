@@ -1,0 +1,23 @@
+###
+POST http://localhost:3000/api/student HTTP/1.1
+
+Content-Type: application/json
+
+{"
+Carnet":"309060",
+"name":"Manuel",
+"Apellidos":"medrano mora",
+"Carrera":"Musico",
+"Dirección":{
+    "Canton":"Puntarenas",
+    "Provincia":"Golfito",
+    "Description":"guayca del palo de almedrods.....etc"
+}
+}
+
+###
+POST http://localhost:3000/api/quotes HTTP/1.1
+
+Content-Type: application/json
+
+{}
